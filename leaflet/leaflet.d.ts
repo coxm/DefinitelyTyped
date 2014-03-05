@@ -1489,25 +1489,25 @@ declare module L {
         getSouthEast(): LatLng;
 
         /**
-          * Returns the north component of the bounds.
+          * Returns the east longitude of the bounds.
           */
-        getNorth(): number;
+        getWest(): number;
 
         /**
-          * Returns the south component of the bounds.
+          * Returns the south latitude of the bounds.
           */
         getSouth(): number;
 
         /**
-          * Returns the east component of the bounds.
+          * Returns the east longitude of the bounds.
           */
         getEast(): number;
-
-        /**
-          * Returns the west component of the bounds.
-          */
-        getWest(): number;
     
+        /**
+          * Returns the north latitude of the bounds.
+          */
+        getNorth(): number;
+
         /**
           * Returns the center point of the bounds.
           */
